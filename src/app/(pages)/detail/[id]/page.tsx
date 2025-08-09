@@ -15,8 +15,13 @@ async function getProfessionalById(id: number) {
   return professional;
 }
 
-export default async function ProfessionalDetailPage({ params }: { params: { id: string } }) {
-  const professional = await getProfessionalById(Number(params.id));
+type PageProps = {
+  params: Promise<{ id: string }>;
+};
+
+export default async function ProfessionalDetailPage({ params }: PageProps) {
+  const { id } = await params;
+  const professional = await getProfessionalById(Number(id));
 
   return (
     <div className="container mx-auto max-w-5xl py-12 px-4">
