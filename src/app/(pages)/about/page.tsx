@@ -8,23 +8,23 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel';
 
-export function CarouselDemo() {
+function CarouselDemo() {
   return (
     <Carousel className="w-full max-w-2xl">
       <CarouselContent>
         <CarouselItem>
           <div className="p-1">
-            <Image src="/turma-reunida.jpeg" alt="Primeira imagem da turma" width={800} height={300} className="object-cover rounded-md" />
+            <Image src="/turma-reunida3.jpeg" alt="Primeira imagem da turma" width={800} height={300} className="object-cover rounded-md" />
           </div>
         </CarouselItem>
         <CarouselItem>
           <div className="p-1">
-            <Image src="/turma-reunida2.jpeg" alt="Segunda imagem da turma" width={800} height={300} className="object-cover rounded-md" />
+            <Image src="/turma-reunida.jpeg" alt="Segunda imagem da turma" width={800} height={300} className="object-cover rounded-md" />
           </div>
         </CarouselItem>
         <CarouselItem>
           <div className="p-1">
-            <Image src="/turma-reunida3.jpeg" alt="Terceira imagem da turma" width={800} height={300} className="object-cover rounded-md" />
+            <Image src="/turma-reunida2.jpeg" alt="Terceira imagem da turma" width={800} height={300} className="object-cover rounded-md" />
           </div>
         </CarouselItem>
       </CarouselContent>
@@ -33,7 +33,8 @@ export function CarouselDemo() {
     </Carousel>
   );
 }
-export default function about() {
+
+export default function AboutPage() {
   return (
     <div className="bg-background text-foreground min-h-screen">
       <main className="container mx-auto max-w-7xl px-4 py-12">
