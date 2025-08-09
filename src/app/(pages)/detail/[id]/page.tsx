@@ -16,13 +16,7 @@ async function getProfessionalById(id: number) {
 }
 
 export default async function ProfessionalDetailPage({ params }: { params: { id: string } }) {
-  // --- CORREÇÃO AQUI ---
-  // 1. Aguarde a resolução dos parâmetros para obter o 'id'
-  const { id } = await params;
-  
-  // 2. Use o 'id' resolvido para buscar o profissional
-  const professional = await getProfessionalById(Number(id));
-  // --- FIM DA CORREÇÃO ---
+  const professional = await getProfessionalById(Number(params.id));
 
   return (
     <div className="container mx-auto max-w-5xl py-12 px-4">
