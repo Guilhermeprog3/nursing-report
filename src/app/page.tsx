@@ -14,17 +14,24 @@ export default function Home() {
           Paixão por Cuidar, <br />
           <span className="text-primary">Segurança para você</span>
         </h1>
-        <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-          Apresentamos uma geração de enfermeiros preparados para oferecer serviços de qualidade, com ética e foco no bem-estar de todos.
+        <p className="text-text-muted-foreground max-w-4xl mx-auto mb-10">
+          Somos uma plataforma que conecta pacientes e seus familiares a técnicos de
+          enfermagem qualificados, com o objetivo de oferecer um atendimento
+          humanizado, seguro e acessível. Nosso foco é cuidar das pessoas de forma
+          que elas se sintam respeitadas com dignidade e conforto, sempre seguindo
+          padrões éticos e técnicos bem rigorosos. Trabalhamos com empatia,
+          transparência e dedicação à excelência, buscando melhorar constantemente a
+          experiência de quem confia em nossos serviços e fortalecendo a relação de
+          confiança entre profissionais e pacientes.        
         </p>
         <div className="flex gap-4 mb-8">
-            <Button variant="ghost" size="icon"><Facebook/></Button>
-            <Button variant="ghost" size="icon"><Instagram/></Button>
-            <Button variant="ghost" size="icon"><Linkedin/></Button>
+          <Button variant="ghost" size="icon"><Facebook /></Button>
+          <Button variant="ghost" size="icon"><Instagram /></Button>
+          <Button variant="ghost" size="icon"><Linkedin /></Button>
         </div>
-        <div className="absolute bottom-10 animate-bounce flex flex-col items-center">
-            <Mouse className="h-6 w-6 text-primary mb-1"/>
-            <ArrowDown className="h-6 w-6 text-primary"/>
+        <div className="absolute bottom-0 animate-bounce flex flex-col items-center">
+          <Mouse className="h-6 w-6 text-primary mb-1" />
+          <ArrowDown className="h-6 w-6 text-primary" />
         </div>
       </section>
 
