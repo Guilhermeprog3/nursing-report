@@ -6,10 +6,8 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="container mx-auto px-4 bg-background">
+    <div className="container mx-auto px-4">
       <section className="text-center min-h-[70vh] flex flex-col items-center justify-center relative">
-        <div className="absolute inset-0 bg-background bg-repeat -z-10 opacity-20"></div>
-
         <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight">
           Paixão por Cuidar, <br />
           <span className="text-primary">Segurança para você</span>

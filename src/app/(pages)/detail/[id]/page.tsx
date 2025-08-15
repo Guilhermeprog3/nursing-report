@@ -72,29 +72,40 @@ export default async function ProfessionalDetailPage({ params }: PageProps) {
 
         <div className="flex flex-col gap-8">
           <Card className="bg-card/20 border-primary/20">
-            <CardContent className="pt-6 space-y-4">
+            <CardHeader>
+              <CardTitle className="text-xl">Informações</CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
               <div>
-                <h4 className="text-lg font-semibold tracking-tight">Credenciais</h4>
-                <p className="text-muted-foreground">{professional.credentials.crm}</p>
+                <h4 className="font-semibold tracking-tight">E-mail</h4>
+                <a href={`mailto:${professional.contact.email}`} className="text-muted-foreground hover:text-primary transition-colors">
+                  {professional.contact.email}
+                </a>
               </div>
               <div>
-                <h4 className="text-lg font-semibold tracking-tight">Instituição</h4>
+                <h4 className="font-semibold tracking-tight">Telefone</h4>
+                <a href={`tel:${professional.contact.phone}`} className="text-muted-foreground hover:text-primary transition-colors">
+                  {professional.contact.phone}
+                </a>
+              </div>
+               <div>
+                <h4 className="font-semibold tracking-tight">Instituição</h4>
                 <p className="text-muted-foreground">{professional.institution}</p>
               </div>
               <div>
-                <h4 className="text-lg font-semibold tracking-tight">Cidade</h4>
+                <h4 className="font-semibold tracking-tight">Cidade</h4>
                 <p className="text-muted-foreground">{professional.city}</p>
               </div>
             </CardContent>
           </Card>
-
-          <Card className="bg-card/20 border-primary/20">
+          
+          <Card className="bg-card/20 border-primary/20 h-full">
             <CardHeader>
               <CardTitle className="text-xl">Habilidades Técnicas</CardTitle>
             </CardHeader>
             <CardContent className="flex flex-col items-start gap-2">
               {professional.skills.map((skill, index) => (
-                <Badge key={index} variant="outline" className="text-base py-1 px-3 border-primary/50">
+                <Badge key={index} variant="outline" className="text-base py-1 px-3 border-primary/50 whitespace-normal h-auto">
                   {skill}
                 </Badge>
               ))}

@@ -3,7 +3,7 @@ import { Stethoscope, Instagram, Facebook, Linkedin, ExternalLink } from 'lucide
 
 export function Footer() {
   return (
-    <footer className="bg-background border-t">
+    <footer className="bg-transparent border-t">
       <div className="container mx-auto p-8 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="flex flex-col gap-4">
           <div className="flex items-center gap-2">
@@ -48,7 +48,7 @@ export function Footer() {
         <p>© Copyright 2025 Turma de Técnicos de Enfermagem — Todos os direitos reservados.</p>
       </div>
 
-      <div className="bg-black py-4">
+      <div className="bg-black/20 py-4">
         <div className="container mx-auto flex items-center justify-center text-sm">
           <a href="#" className="text-muted-foreground hover:text-foreground flex items-center gap-2">
             <span>Desenvolvido por Developer Community</span>

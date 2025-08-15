@@ -36,7 +36,7 @@ function CarouselDemo() {
 
 export default function AboutPage() {
   return (
-    <div className="bg-background text-foreground min-h-screen">
+    <div className="text-foreground min-h-screen">
       <main className="container mx-auto max-w-7xl px-4 py-12">
         <section className="mb-12">
           <h1 className="text-2xl font-bold mb-6">Quem Somos?</h1>
@@ -47,12 +47,12 @@ export default function AboutPage() {
         </section>
 
         <section className="space-y-8 mb-12">
-          <Card className="bg-white">
+          <Card className="bg-card/50">
             <CardHeader>
-              <CardTitle className="text-[#030D30]">Nossa História</CardTitle>
+              <CardTitle>Nossa História</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-[#030D30]">
+              <p>
                 Somos uma turma unida pelo propósito de cuidar. Ao longo da
                 nossa formação como Técnicos em Enfermagem, enfrentamos
                 desafios, aprendemos juntos e desenvolvemos não só habilidades
@@ -66,10 +66,10 @@ export default function AboutPage() {
 
           <Card className="bg-card/50">
             <CardHeader>
-              <CardTitle className="text-[#FFFFFF]">Nossa Missão</CardTitle>
+              <CardTitle>Nossa Missão</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-[#FFFFFF]">
+              <p>
                 Nossa missão é oferecer cuidado com excelência,
                 responsabilidade e empatia. Estamos comprometidos em aplicar
                 nosso conhecimento técnico para promover saúde, acolhimento e
