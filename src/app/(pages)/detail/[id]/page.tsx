@@ -7,6 +7,12 @@ import { Button } from '@/components/ui/button';
 import { MessageCircle } from 'lucide-react';
 import Link from 'next/link';
 
+export async function generateStaticParams() {
+  return professionals.map((professional) => ({
+    id: professional.id.toString(),
+  }));
+}
+
 async function getProfessionalById(id: number) {
   await new Promise(resolve => setTimeout(resolve, 1000));
   const professional = professionals.find(p => p.id === id);
