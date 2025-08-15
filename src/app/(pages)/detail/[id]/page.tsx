@@ -7,15 +7,8 @@ import { Button } from '@/components/ui/button';
 import { MessageCircle } from 'lucide-react';
 import Link from 'next/link';
 
-// Esta função ajuda o Next.js a saber quais páginas criar durante o build.
-export async function generateStaticParams() {
-  return professionals.map((professional) => ({
-    id: professional.id.toString(),
-  }));
-}
-
-// A função agora é síncrona, o que simplifica a inferência de tipos.
-function getProfessionalById(id: number) {
+// Função para buscar o profissional (sem alterações)
+async function getProfessionalById(id: number) {
   const professional = professionals.find(p => p.id === id);
   if (!professional) {
     notFound();
@@ -23,11 +16,14 @@ function getProfessionalById(id: number) {
   return professional;
 }
 
-// A tipagem está correta, e a remoção do `await` desnecessário na busca dos dados
-// torna o código mais limpo.
-export default async function ProfessionalDetailPage({ params }: { params: { id: string } }) {
-  const { id } = params;
-  const professional = getProfessionalById(Number(id));
+// Restaurando a tipagem que funcionava no seu ambiente de build
+type PageProps = {
+  params: Promise<{ id: string }>;
+};
+
+export default async function ProfessionalDetailPage({ params }: PageProps) {
+  const { id } = await params;
+  const professional = await getProfessionalById(Number(id));
   const whatsappLink = `https://wa.me/${professional.contact.phone.replace(/\D/g, '')}`;
 
   return (
@@ -44,7 +40,8 @@ export default async function ProfessionalDetailPage({ params }: { params: { id:
           <h1 className="text-4xl font-bold">{professional.name}</h1>
           <p className="text-lg text-muted-foreground mt-2">{professional.description}</p>
           <Button asChild variant="link" className="px-0 text-green-400 hover:text-green-500">
-            <Link href={whatsappLink} target='_blank'>
+            {/* O link do WhatsApp foi adicionado para funcionalidade */}
+            <Link href={whatsappLink} target="_blank">
               <MessageCircle size={16} className="mr-2" />
               Contato Whatsapp
             </Link>
