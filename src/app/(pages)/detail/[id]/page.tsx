@@ -7,14 +7,15 @@ import { Button } from '@/components/ui/button';
 import { MessageCircle } from 'lucide-react';
 import Link from 'next/link';
 
+// Esta função ajuda o Next.js a saber quais páginas criar durante o build.
 export async function generateStaticParams() {
   return professionals.map((professional) => ({
     id: professional.id.toString(),
   }));
 }
 
-async function getProfessionalById(id: number) {
-  await new Promise(resolve => setTimeout(resolve, 1000));
+// A função agora é síncrona, o que simplifica a inferência de tipos.
+function getProfessionalById(id: number) {
   const professional = professionals.find(p => p.id === id);
   if (!professional) {
     notFound();
@@ -22,9 +23,11 @@ async function getProfessionalById(id: number) {
   return professional;
 }
 
+// A tipagem está correta, e a remoção do `await` desnecessário na busca dos dados
+// torna o código mais limpo.
 export default async function ProfessionalDetailPage({ params }: { params: { id: string } }) {
   const { id } = params;
-  const professional = await getProfessionalById(Number(id));
+  const professional = getProfessionalById(Number(id));
   const whatsappLink = `https://wa.me/${professional.contact.phone.replace(/\D/g, '')}`;
 
   return (
