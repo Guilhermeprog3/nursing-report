@@ -7,7 +7,6 @@ import { Button } from '@/components/ui/button';
 import { MessageCircle } from 'lucide-react';
 import Link from 'next/link';
 
-// Função para buscar o profissional (sem alterações)
 async function getProfessionalById(id: number) {
   const professional = professionals.find(p => p.id === id);
   if (!professional) {
@@ -16,7 +15,6 @@ async function getProfessionalById(id: number) {
   return professional;
 }
 
-// Restaurando a tipagem que funcionava no seu ambiente de build
 type PageProps = {
   params: Promise<{ id: string }>;
 };
@@ -40,7 +38,6 @@ export default async function ProfessionalDetailPage({ params }: PageProps) {
           <h1 className="text-4xl font-bold">{professional.name}</h1>
           <p className="text-lg text-muted-foreground mt-2">{professional.description}</p>
           <Button asChild variant="link" className="px-0 text-green-400 hover:text-green-500">
-            {/* O link do WhatsApp foi adicionado para funcionalidade */}
             <Link href={whatsappLink} target="_blank">
               <MessageCircle size={16} className="mr-2" />
               Contato Whatsapp
@@ -91,10 +88,6 @@ export default async function ProfessionalDetailPage({ params }: PageProps) {
                 <a href={`tel:${professional.contact.phone}`} className="text-muted-foreground hover:text-primary transition-colors">
                   {professional.contact.phone}
                 </a>
-              </div>
-               <div>
-                <h4 className="font-semibold tracking-tight">Instituição</h4>
-                <p className="text-muted-foreground">{professional.institution}</p>
               </div>
               <div>
                 <h4 className="font-semibold tracking-tight">Cidade</h4>
