@@ -8,7 +8,6 @@ import { MessageCircle } from 'lucide-react';
 import Link from 'next/link';
 
 async function getProfessionalById(id: number) {
-  // Simula um delay para demonstrar o loading
   await new Promise(resolve => setTimeout(resolve, 1000));
   const professional = professionals.find(p => p.id === id);
   if (!professional) {
@@ -17,13 +16,7 @@ async function getProfessionalById(id: number) {
   return professional;
 }
 
-// Corrigido: 'params' é um objeto, não uma Promise.
-type PageProps = {
-  params: { id: string };
-};
-
-export default async function ProfessionalDetailPage({ params }: PageProps) {
-  // Corrigido: Acesso direto ao 'id' sem 'await'.
+export default async function ProfessionalDetailPage({ params }: { params: { id: string } }) {
   const { id } = params;
   const professional = await getProfessionalById(Number(id));
   const whatsappLink = `https://wa.me/${professional.contact.phone.replace(/\D/g, '')}`;
