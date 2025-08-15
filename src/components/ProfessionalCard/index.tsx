@@ -15,10 +15,15 @@ interface ProfessionalCardProps {
     name: string;
     specialty: string;
     image: string;
+    contact: {
+      phone: string;
+    }
   };
 }
 
 export function ProfessionalCard({ professional }: ProfessionalCardProps) {
+  const whatsappLink = `https://wa.me/${professional.contact.phone.replace(/\D/g, '')}`;
+
   return (
     <Card className="text-center bg-card/20 border-border hover:border-primary transition-all overflow-hidden">
       <div className="relative h-48 w-full">
@@ -36,8 +41,10 @@ export function ProfessionalCard({ professional }: ProfessionalCardProps) {
       </CardContent>
 
       <CardFooter className="flex flex-col gap-2 px-4 pb-4">
-        <Button className="w-full bg-green-500 hover:bg-green-600 text-white">
-          Contato Whatsapp
+        <Button asChild className="w-full bg-green-500 hover:bg-green-600 text-white">
+          <Link href={whatsappLink} target="_blank">
+            Contato Whatsapp
+          </Link>
         </Button>
         
         <Button asChild className="w-full" variant="outline">

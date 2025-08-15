@@ -13,7 +13,6 @@ export const professionals = [
     credentials: {
       crm: 'COREN/PI 123.53',
     },
-    institution: 'Instituição X',
     city: 'Teresina / PI',
     about: 'Sou um técnico em enfermagem apaixonado por cuidar de pessoas. Acredito que, além do conhecimento técnico, ouvir com atenção e tratar com respeito fazem toda a diferença na recuperação de um paciente. Meu objetivo é oferecer um atendimento seguro, acolhedor e eficiente, sempre com empatia e dedicação.',
     skills: ['Aferição de sinais vitais', 'Administração de medicamentos', 'Curativos'],
@@ -38,7 +37,6 @@ export const professionals = [
     credentials: {
       crm: 'COREN/PI 123.55',
     },
-    institution: 'Instituição Y',
     city: 'Teresina / PI',
     about: 'Técnica em Enfermagem com sólida formação e comprometimento em prestar assistência segura, qualificada e centrada no paciente. Atuando com rigor técnico, ética e sensibilidade, assegurando cuidado humanizado e eficiente em todas as etapas do atendimento. Garantindo resultados positivos, preservando a saúde, qualidade de vida e a dignidade de cada indivíduo sob minha responsabilidade.',
     skills: [
@@ -88,7 +86,6 @@ export const professionals = [
     credentials: {
       crm: 'COREN/PI 123.54',
     },
-    institution: 'Instituição Y',
     city: 'Teresina / PI',
     about: 'Com foco em pediatria, minha paixão é garantir que as crianças recebam o melhor cuidado possível. Sou calma, paciente e dedicada a criar um ambiente tranquilo e seguro para os pequenos e suas famílias durante o atendimento.',
     skills: ['Punção venosa pediátrica', 'Primeiros socorros', 'Triagem'],
@@ -111,7 +108,6 @@ export const professionals = [
     credentials: {
       crm: 'COREN/PI 123.57',
     },
-    institution: 'Instituição Y',
     city: 'Teresina / PI',
     about: 'Com foco em pediatria, minha paixão é garantir que as crianças recebam o melhor cuidado possível. Sou calma, paciente e dedicada a criar um ambiente tranquilo e seguro para os pequenos e suas famílias durante o atendimento.',
     skills: ['Punção venosa pediátrica', 'Primeiros socorros', 'Triagem'],
@@ -134,7 +130,6 @@ export const professionals = [
     credentials: {
       crm: 'COREN/PI 123.58',
     },
-    institution: 'Instituição Y',
     city: 'Teresina / PI',
     about: 'Com foco em pediatria, minha paixão é garantir que as crianças recebam o melhor cuidado possível. Sou calma, paciente e dedicada a criar um ambiente tranquilo e seguro para os pequenos e suas famílias durante o atendimento.',
     skills: ['Punção venosa pediátrica', 'Primeiros socorros', 'Triagem'],

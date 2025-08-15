@@ -8,6 +8,8 @@ import { MessageCircle } from 'lucide-react';
 import Link from 'next/link';
 
 async function getProfessionalById(id: number) {
+  // Simula um delay para demonstrar o loading
+  await new Promise(resolve => setTimeout(resolve, 1000));
   const professional = professionals.find(p => p.id === id);
   if (!professional) {
     notFound();
@@ -16,12 +18,13 @@ async function getProfessionalById(id: number) {
 }
 
 type PageProps = {
-  params: Promise<{ id: string }>;
+  params: { id: string };
 };
 
 export default async function ProfessionalDetailPage({ params }: PageProps) {
-  const { id } = await params;
+  const { id } = params;
   const professional = await getProfessionalById(Number(id));
+  const whatsappLink = `https://wa.me/${professional.contact.phone.replace(/\D/g, '')}`;
 
   return (
     <div className="container mx-auto max-w-5xl py-12 px-4">
@@ -37,7 +40,7 @@ export default async function ProfessionalDetailPage({ params }: PageProps) {
           <h1 className="text-4xl font-bold">{professional.name}</h1>
           <p className="text-lg text-muted-foreground mt-2">{professional.description}</p>
           <Button asChild variant="link" className="px-0 text-green-400 hover:text-green-500">
-            <Link href="#">
+            <Link href={whatsappLink} target='_blank'>
               <MessageCircle size={16} className="mr-2" />
               Contato Whatsapp
             </Link>

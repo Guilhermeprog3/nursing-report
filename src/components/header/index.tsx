@@ -22,9 +22,6 @@ export function Header() {
             Nossos Profissionais
           </Link>
         </nav>
-        <Button asChild>
-          <Link href="/contact">Contate-nos</Link>
-        </Button>
       </div>
     </header>
   );

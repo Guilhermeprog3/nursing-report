@@ -1,5 +1,6 @@
-import Link from 'next/link';
-import { Stethoscope, Instagram, Facebook, Linkedin, ExternalLink } from 'lucide-react';
+import Link from "next/link"
+import Image from "next/image"
+import { Stethoscope, Instagram, Facebook, Linkedin } from "lucide-react"
 
 export function Footer() {
   return (
@@ -11,7 +12,8 @@ export function Footer() {
             <h2 className="text-lg font-bold">Enfermagem 202X - SENAC</h2>
           </div>
           <p className="text-muted-foreground">
-            Cada aluno aqui representa a força, o compromisso e a paixão por cuidar. Esta é a vitrine de uma turma pronta para fazer a diferença na saúde.
+            Cada aluno aqui representa a força, o compromisso e a paixão por cuidar. Esta é a vitrine de uma turma
+            pronta para fazer a diferença na saúde.
           </p>
           <div className="flex items-center gap-4 mt-2">
             <Link href="#" className="text-primary hover:text-foreground">
@@ -29,17 +31,37 @@ export function Footer() {
         <div>
           <h3 className="text-lg font-bold mb-4">Mapa do Site</h3>
           <ul className="space-y-2">
-            <li><Link href="/" className="text-muted-foreground hover:text-foreground">Início</Link></li>
-            <li><Link href="/about" className="text-muted-foreground hover:text-foreground">Quem Somos</Link></li>
-            <li><Link href="/professionals" className="text-muted-foreground hover:text-foreground">Nossos Profissionais</Link></li>
+            <li>
+              <Link href="/" className="text-muted-foreground hover:text-foreground">
+                Início
+              </Link>
+            </li>
+            <li>
+              <Link href="/about" className="text-muted-foreground hover:text-foreground">
+                Quem Somos
+              </Link>
+            </li>
+            <li>
+              <Link href="/professionals" className="text-muted-foreground hover:text-foreground">
+                Nossos Profissionais
+              </Link>
+            </li>
           </ul>
         </div>
 
         <div>
           <h3 className="text-lg font-bold mb-4">Políticas</h3>
           <ul className="space-y-2">
-            <li><Link href="/privacy" className="text-muted-foreground hover:text-foreground">Políticas de Privacidade</Link></li>
-            <li><Link href="/terms" className="text-muted-foreground hover:text-foreground">Termos de Serviço</Link></li>
+            <li>
+              <Link href="/privacy" className="text-muted-foreground hover:text-foreground">
+                Políticas de Privacidade
+              </Link>
+            </li>
+            <li>
+              <Link href="/terms" className="text-muted-foreground hover:text-foreground">
+                Termos de Serviço
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
@@ -48,14 +70,19 @@ export function Footer() {
         <p>© Copyright 2025 Turma de Técnicos de Enfermagem — Todos os direitos reservados.</p>
       </div>
 
-      <div className="bg-black/20 py-4">
+      <div className="bg-black py-4">
         <div className="container mx-auto flex items-center justify-center text-sm">
-          <a href="#" className="text-muted-foreground hover:text-foreground flex items-center gap-2">
+          <a
+            href="https://github.com/guilhermeprog3/nursing-report"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-foreground flex items-center gap-2"
+          >
+            <Image src="/devlogo.jpeg" alt="Developer Community Logo" width={24} height={24} />
             <span>Desenvolvido por Developer Community</span>
-            <ExternalLink size={16} />
           </a>
         </div>
       </div>
     </footer>
-  );
+  )
 }
