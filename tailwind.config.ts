@@ -3,11 +3,12 @@ import type { Config } from "tailwindcss"
 const config = {
   darkMode: "class",
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-	],
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+    "*.{js,ts,jsx,tsx,mdx}",
+  ],
   prefix: "",
   theme: {
     container: {
@@ -19,7 +20,8 @@ const config = {
     },
     extend: {
       backgroundImage: {
-        'body-gradient': 'linear-gradient(to bottom, hsl(206 90% 75%), hsl(210 40% 95%))',
+        "body-gradient":
+          "linear-gradient(135deg, hsl(200 85% 75%) 0%, hsl(205 80% 80%) 25%, hsl(210 75% 85%) 50%, hsl(215 70% 90%) 75%, hsl(220 65% 95%) 100%)",
       },
       colors: {
         border: "hsl(var(--border))",
