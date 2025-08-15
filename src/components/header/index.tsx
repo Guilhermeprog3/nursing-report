@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { Button } from "@/components/ui/button";
-import { Stethoscope } from 'lucide-react';
 import Image from 'next/image';
 
 export function Header() {
@@ -22,6 +21,9 @@ export function Header() {
             Nossos Profissionais
           </Link>
         </nav>
+        <Button asChild>
+          <Link href="/contact">Contate-nos</Link>
+        </Button>
       </div>
     </header>
   );

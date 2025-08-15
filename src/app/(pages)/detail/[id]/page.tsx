@@ -8,7 +8,6 @@ import { MessageCircle } from 'lucide-react';
 import Link from 'next/link';
 
 async function getProfessionalById(id: number) {
-  // Simula um delay para demonstrar o loading
   await new Promise(resolve => setTimeout(resolve, 1000));
   const professional = professionals.find(p => p.id === id);
   if (!professional) {
