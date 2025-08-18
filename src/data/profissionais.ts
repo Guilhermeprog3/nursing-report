@@ -26,7 +26,7 @@ export const professionals = [
     name: 'Allyssandra K.',
     specialty: 'Atenção Primária e Hospitalar',
     description: 'Técnica em Enfermagem com sólida formação e comprometimento em prestar assistência segura, qualificada e centrada no paciente.',
-    image: '/enfermeira.png',
+    image: '/Allyssandra.jpeg',
     experience: [
       'Administração de medicamentos e vacinação',
       'Monitoramento de sinais vitais e realização de curativos.',

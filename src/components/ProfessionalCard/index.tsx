@@ -25,17 +25,18 @@ export function ProfessionalCard({ professional }: ProfessionalCardProps) {
   const whatsappLink = `https://wa.me/${professional.contact.phone.replace(/\D/g, '')}`;
 
   return (
-    <Card className="text-center bg-card/20 border-border hover:border-primary transition-all overflow-hidden">
-      <div className="relative h-48 w-full">
+    <Card className="text-center bg-card/20 border-border hover:border-primary transition-all overflow-hidden gap-0 p-0">
+      
+      <div className="relative h-52 w-full">
         <Image
           src={professional.image}
           alt={`Foto de ${professional.name}`}
           fill
-          className="object-cover"
+          className=""
         />
       </div>
 
-      <CardContent className="p-4">
+      <CardContent className="p-4 pt-4">
         <CardTitle className="text-lg">{professional.name}</CardTitle>
         <CardDescription>{professional.specialty}</CardDescription>
       </CardContent>
