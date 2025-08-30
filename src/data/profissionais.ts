@@ -11,6 +11,7 @@ export const professionals = [
       'Apoio às rotinas de enfermagem e organização de registros.',
       'Orientação à população e participação em campanhas de promoção da saúde.',
       'Atuação seguindo protocolos e normas de biossegurança.',
+      "Estágio Supervisionado - Hospital da polícia Militar (HPM) 11/2024 - 12/2024", "Estágio Supervisionado - UBS - Cristo Rei 05/2024 - 06/2024 " ,"Estágio extracurricular - Vilar (Hospital de olhos) 02/06 até o momento."
     ],
     city: 'Teresina / PI',
     about: 'Sou acadêmica do curso em enfermagem com sólida formação e comprometimento em prestar assistência segura, qualificada e centrada no paciente. Atuando com rigor técnico, ética e sensibilidade, assegurando cuidado humanizado e eficiente em todas as etapas do atendimento. Garantindo resultados positivos, preservando a saúde, qualidade de vida e a dignidade de cada indivíduo sob minha responsabilidade.',
@@ -23,7 +24,7 @@ export const professionals = [
       email: 'allyssandrak21@gmail.com',
       phone: '(86) 981382318',
     },
-    disponibilidade_viagem: 'Sim',
+    disponibilidade_viagem: 'Não',
     disponibilidade_finais_de_semana: 'Sim',
   },
   {
@@ -34,7 +35,7 @@ export const professionals = [
     image: '/samara.jpeg',
     experience: ["Administração de medicamentos e vacinação (sob supervisão)", "Monitorização de sinais vitais",  "Realização de curativo","Coleta de sangue para exames laboratoriais"],
     city: 'Teresina / PI',
-    about: 'Sou acadêmica do curso Técnico em Enfermagem, atualmente em fase de formação. Atuo com foco em home care (atendimento domiciliar), levando ao paciente o conforto de ser cuidado no ambiente familiar, com a mesma qualidade e dedicação encontrada em clínicas e hospitais.',
+    about: 'Acadêmica em formação. Atuo com foco em home care (atendimento domiciliar), levando ao paciente o conforto de ser cuidado no ambiente familiar, com a mesma qualidade e dedicação encontrada em clínicas e hospitais.',
     skills: ["Estratégias integradas de prevenção e tratamento do HIV com enfoque em PREP, PEP, diagnóstico e ética - Coren Piauí Carga 8H Data 02/2024", "Primeiros socorros, desmaio, engasgo, crises convulsivas e quedas - Coren 4H 02/2024", "Princípios fundamentais a instrumentação cirúrgica fundamentação teórica e atividades práticas - Coren 8H 03/2024", "Oficina de feridas e curativos - Senac 2H"],
     contact: {
       email: 'Samaraemanuella24@gmail.com',
@@ -97,7 +98,7 @@ export const professionals = [
   {
     id: 6,
     name: 'Ana Beatriz',
-    specialty: 'Técnica de Enfermagem (em formação)',
+    specialty: 'Técnica em enfermagem (em formação)',
     description: 'Interesse em desenvolver carreira na área da saúde, especialmente na assistência domiciliar (Home Care).',
     image: '/ana beatriz.jpeg',
     experience: [],
@@ -148,7 +149,7 @@ export const professionals = [
   {
     id: 9,
     name: 'Samyla Cristine',
-    specialty: 'Técnica de enfermagem',
+    specialty: 'Técnica em enfermagem (em formação)',
     description: 'Excelência em Cuidado Domiciliar',
     image: '/samyla.jpeg',
     experience: [ "Assistência de enfermagem em atenção básica, com atuação em cuidados diretos ao paciente, apoio em procedimentos, acompanhamento clínico, administração de medicações e vacinas;", "Coleta de exames laboratoriais;", "Participação em ações de promoção e prevenção em saúde.", "organização de materiais e insumos", "registro em prontuário", "participação em campanhas de saúde"],
@@ -165,7 +166,7 @@ export const professionals = [
   {
     id: 10,
     name: 'Layla Santos',
-    specialty: 'Técnico em Enfermagem (em formação)',
+    specialty: 'Técnica em enfermagem (em formação)',
     description: 'Foco em Home Care',
     image: '/Layla.jpeg',
     experience: ["Procedimentos técnicos", "Organização da rotina de cuidados", "Apoio à equipe multiprofissional"],
@@ -181,8 +182,8 @@ export const professionals = [
   },
   {
     id: 11,
-    name: 'Ellen Silva',
-    specialty: 'Técnico em Enfermagem',
+    name: 'Ellen Santos',
+    specialty: 'Técnica em enfermagem (em formação)',
     description: 'Foco em atendimento domiciliar (HOME CARE).',
     image: '/ellen.jpeg',
     experience: ["Apoio em campanhas e rotinas de vacinação;", "Verificação e registro de sinais vitais;", "Preparo e administração de medicações", "Realização de curativos e assistência em procedimentos;", "Acompanhamento de pacientes hospitalizados;", "Registro e organização de informações em prontuário;", "Apoio à equipe de enfermagem nas rotinas assistenciais."],
@@ -199,7 +200,7 @@ export const professionals = [
   {
     id: 12,
     name: 'Isabella Maria',
-    specialty: 'Técnico de Enfermagem',
+    specialty: 'Técnica em enfermagem (em formação)',
     description: 'Cursando o Técnico de Enfermagem pelo SENAC.',
     image: '/Isabella.jpg',
     experience: ["Controle de sinais vitais e realização de curativos", "Administração de medicamentos e aplicação de vacinas", "Apoio nas atividades de enfermagem e organização de registros"],
@@ -216,12 +217,12 @@ export const professionals = [
   {
     id: 13,
     name: 'Angela Maria',
-    specialty: 'Técnico em Enfermagem',
+    specialty: 'Técnica em enfermagem (em formação)',
     description: 'Cursando Técnico em Enfermagem na instituição Senac PI.',
     image: '/Ângela.jpg',
-    experience: [],
+    experience: ["Estágio em UBS","Apoio no atendimento a pacientes e realização de triagens","participação em campanhas de saúde","Estágio em Clinica Médica","Acompanhamento de consultas e coleta de dados para anamnese."],
     city: 'Teresina / PI',
-    about: 'Angela Maria Andrade Cunha, atualmente cursando Técnico em Enfermagem na instituição Senac PI.',
+    about: 'Busco constantemente aprimorar meus conhecimentos e habilidades para oferecer um cuidado humanizado e de qualidade aos pacientes.',
     skills: ["Curso de Aperfeiçoamento em Cuidados Paliativos - Coren PI, com carga horária de 04 horas, 06/2025.", "Curso de Pé Diabético, oferecido pelo Senac PI, com carga horária de 03 horas,05/2025.", "Oficina de feridas e curativos,na instituição Senac PI. Com carga horária de 02 horas,05/2024"],
     contact: {
       email: 'angelamariaandrade2613@gmail.com',
@@ -233,7 +234,7 @@ export const professionals = [
   {
     id: 14,
     name: 'Gabriela Pereira Silva',
-    specialty: 'Técnica de Enfermagem',
+    specialty: 'Técnica em enfermagem (em formação)',
     description: 'Técnica de Enfermagem dedicada e comprometida, com forte senso de responsabilidade e ética.',
     image: '/gabriela.jpeg',
     experience: ["Administração de medicamentos", "Punção Venosa e troca de acesso.", "Troca e limpeza de curativos", "Retirada de Pontos", "Anotações de Enfermagem", "Coleta de Sangue", "Monitorização de Sinais Vitais, Pesagem e Testes de Glicemia.", "Vacinação, Intramuscular, Intradérmica e Subcutânea."],
@@ -250,7 +251,7 @@ export const professionals = [
   {
     id: 15,
     name: 'Alcione Pereira de Oliveira',
-    specialty: 'Técnico em enfermagem (em formação)',
+    specialty: 'Técnica em enfermagem (em formação)',
     description: 'Estudante do curso técnico em enfermagem em formação pelo Senac Piauí.',
     image: '/alcione.jpeg',
     experience: [],
@@ -267,7 +268,7 @@ export const professionals = [
   {
     id: 16,
     name: 'Nataniel Airton',
-    specialty: 'Técnico de Enfermagem',
+    specialty: 'Técnico em enfermagem (em formação)',
     description: 'Técnico de Enfermagem com ampla experiência e dedicação.',
     image: '/nataniel.jpeg',
     experience: ["Administração de medicamentos e vacinação", "Monitoramento de sinais vitais e realização de curativos.", "Apoio às rotinas de enfermagem e organização de registros.", "Orientação à população e participação em campanhas de promoção da saúde.", "Atuação seguindo protocolos e normas de biossegurança."],
@@ -284,7 +285,7 @@ export const professionals = [
   {
     id: 17,
     name: 'Andressa Brito Oliveira',
-    specialty: 'Técnica em Enfermagem',
+    specialty: 'Técnica em enfermagem (em formação)',
     description: 'Técnica em Enfermagem, apaixonada pelo cuidado humanizado.',
     image: '/andressa.jpeg',
     experience: ["Administração segura de medicamentos;", "Monitoramento de sinais vitais;", "Apoio em procedimentos clínicos e cirúrgicos;", "Cuidados humanizados no pré e pós-operatório;", "Atendimentos de urgência, como primeiros socorros (desmaios, engasgos, crises convulsivas e quedas).","Estratégias de prevenção e tratamento do HIVPrEP, PEP, diagnóstico e ética","V ENATEPI – Encontro de Auxiliares e Técnicos de Enfermagem do Piauí"],
@@ -301,7 +302,7 @@ export const professionals = [
   {
     id: 18,
     name: 'Conceição Araujo',
-    specialty: 'Técnico em enfermagem',
+    specialty: 'Técnica em enfermagem (em formação)',
     description: 'Estudante de técnico em enfermagem, atualmente no 4° período.',
     image: '/conceicao.jpeg',
     experience: ["UBS Antônio Carlos Costa (bairro Cristo Rei) Junho 2024", "Hospital Geral do Buenos Aires Novembro 2024", "Hospital da Polícia Militar do Piauí (HPM) Dezembro 2024 ", "Hospital Santa Maria Agosto 2024 até o momento. "],
@@ -319,7 +320,7 @@ export const professionals = [
   {
     id: 19,
     name: 'Géssica Vasconselos',
-    specialty: 'Home Care',
+    specialty: 'Técnica em enfermagem (em formação)',
     description: 'Atendimento especializado em Home Care.',
     image: '/gessica.jpeg',
     experience: ["Hospital Dirceu Arco Verde - HPM", "Hospital geral do Satélite", "Unidade de saúde da família Dr. José Wilson Batista", "Auxiliar de apoio a inclusão crianças autistas (CMEI Esplanada)"],
@@ -336,7 +337,7 @@ export const professionals = [
   {
     id: 20,
     name: 'Karoline Stefanie',
-    specialty: 'Técnico em Enfermagem (em formação)',
+    specialty: 'Técnica em enfermagem (em formação)',
     description: 'Estudante do curso Técnico em Enfermagem pelo SENAC.',
     image: '/karoline.jpg',
     experience: [ 'Administração de medicamentos e vacinação',
@@ -355,7 +356,7 @@ export const professionals = [
   {
     id: 21,
     name: 'Eniele Aquino',
-    specialty: 'Técnica em enfermagem',
+    specialty: 'Técnica em enfermagem (em formação)',
     description: 'Técnica em enfermagem, com experiência no cuidado de pessoas.',
     image: '/eniele.jpeg',
     experience: ["Administração de medicamentos e vacinação", "Monitoramento de sinais vitais e realização de curativos.", "Apoio às rotinas de enfermagem e organização de registros.", "Orientação à população e participação em campanhas de promoção da saúde.", "Atuação seguindo protocolos e normas de biossegurança."],
@@ -372,7 +373,7 @@ export const professionals = [
   {
     id: 22,
     name: 'Antonio Rodrigues',
-    specialty: 'Técnico de enfermagem',
+    specialty: 'Técnico em enfermagem (em formação)',
     description: 'Técnico de enfermagem com experiência prática adquirida em estágios.',
     image: '/antonio.jpeg',
     experience: ["Estágios em unidade Básico de saúde (UBS)", "Clínica médica, centro cirúrgico, urgência e emergência e uti.", "Aferição de sinais vitais, administração de medicamentos, realização de curativos, banho no leito e registro de anotação de enfermagem."],
