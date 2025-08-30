@@ -13,6 +13,7 @@ export const professionals = [
       'Atuação seguindo protocolos e normas de biossegurança.',
       "Estágio Supervisionado - Hospital da polícia Militar (HPM) 11/2024 - 12/2024", "Estágio Supervisionado - UBS - Cristo Rei 05/2024 - 06/2024 " ,"Estágio extracurricular - Vilar (Hospital de olhos) 02/06 até o momento."
     ],
+    
     city: 'Teresina / PI',
     about: 'Sou acadêmica do curso em enfermagem com sólida formação e comprometimento em prestar assistência segura, qualificada e centrada no paciente. Atuando com rigor técnico, ética e sensibilidade, assegurando cuidado humanizado e eficiente em todas as etapas do atendimento. Garantindo resultados positivos, preservando a saúde, qualidade de vida e a dignidade de cada indivíduo sob minha responsabilidade.',
     skills: [
