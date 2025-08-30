@@ -14,17 +14,17 @@ function CarouselDemo() {
       <CarouselContent>
         <CarouselItem>
           <div className="p-1">
-            <Image src="/turma-reunida3.jpeg" alt="Primeira imagem da turma" width={800} height={300} className="object-cover rounded-md" />
+            <Image src="/equipe1.jpeg" alt="Primeira imagem da turma" width={800} height={300} className="object-cover rounded-md" />
           </div>
         </CarouselItem>
         <CarouselItem>
           <div className="p-1">
-            <Image src="/turma-reunida.jpeg" alt="Segunda imagem da turma" width={800} height={300} className="object-cover rounded-md" />
+            <Image src="/equipe2.jpeg" alt="Segunda imagem da turma" width={800} height={300} className="object-cover rounded-md" />
           </div>
         </CarouselItem>
         <CarouselItem>
           <div className="p-1">
-            <Image src="/turma-reunida2.jpeg" alt="Terceira imagem da turma" width={800} height={300} className="object-cover rounded-md" />
+            <Image src="/equipe3.jpeg" alt="Terceira imagem da turma" width={800} height={300} className="object-cover rounded-md" />
           </div>
         </CarouselItem>
       </CarouselContent>
