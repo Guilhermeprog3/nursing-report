@@ -2,7 +2,7 @@ export const professionals = [
   {
     id: 1,
     name: 'Allyssandra Karen',
-    specialty: 'Atenção Primária e Hospitalar',
+    specialty: 'Técnica em enfermagem (em formação)',
     description: 'Técnica em Enfermagem com sólida formação e comprometimento em prestar assistência segura, qualificada e centrada no paciente.',
     image: '/alyssandra.jpeg',
     experience: [
@@ -48,7 +48,7 @@ export const professionals = [
     name: 'Leonardo Gomes',
     specialty: 'Técnico de Enfermagem (em formação)',
     description: 'Compromisso com um atendimento ético, humanizado e voltado para o bem-estar do paciente.',
-    image: '/Leo.jpg',
+    image: '/Léo.png',
     experience: ["Unidade Básica de Saúde (UBS): estágio com foco em ações de promoção da saúde, acompanhamento de pacientes e práticas preventivas.", "Clínica Médica: estágio voltado para o cuidado direto ao paciente, administração de medicamentos e suporte à equipe multiprofissional."],
     city: 'Teresina / PI',
     about: 'Acadêmico do curso Técnico de Enfermagem, em formação. Tenho compromisso com um atendimento ético, humanizado e voltado para o bem-estar do paciente. Através da vivência prática, desenvolvi habilidades no cuidado direto, na escuta ativa e na promoção da saúde. Meu objetivo é oferecer um serviço de qualidade no ambiente domiciliar, com segurança, empatia e profissionalismo, mesmo ainda em processo de formação.',
@@ -114,7 +114,7 @@ export const professionals = [
   {
     id: 7,
     name: 'Fernanda Bastos',
-    specialty: 'Técnica de enfermagem (em formação)',
+    specialty: 'Técnica em enfermagem (em formação)',
     description: 'Estudante do 4º período do curso de técnico de enfermagem.',
     image: '/fernanda.jpeg',
     experience: ["Estágios em unidade Básico de saúde (UBS)", "Clínica médica", "Centro cirúrgico", "urgência e emergência e UTI", "Cuidado a idosos, com foco em conforto e qualidade de vida"],
@@ -131,7 +131,7 @@ export const professionals = [
   {
     id: 8,
     name: 'Maria dos Reis Sousa',
-    specialty: 'Técnico em Enfermagem (em formação)',
+    specialty: 'Técnica em Enfermagem (em formação)',
     description: 'Atualmente, estou cursando Técnico em Enfermagem e possuo experiência de estágio em unidades de saúde.',
     image: '/maria dos reis.jpeg',
     experience: ["Estágio em unidades de saúde, como o Hospital da Polícia de Teresina, onde desenvolvi habilidades no cuidado direto aos pacientes."],
@@ -150,7 +150,7 @@ export const professionals = [
     name: 'Samyla Cristine',
     specialty: 'Técnica de enfermagem',
     description: 'Excelência em Cuidado Domiciliar',
-    image: '/enfermeira.png',
+    image: '/samyla.jpeg',
     experience: [ "Assistência de enfermagem em atenção básica, com atuação em cuidados diretos ao paciente, apoio em procedimentos, acompanhamento clínico, administração de medicações e vacinas;", "Coleta de exames laboratoriais;", "Participação em ações de promoção e prevenção em saúde.", "organização de materiais e insumos", "registro em prontuário", "participação em campanhas de saúde"],
     city: 'Teresina / PI',
     about: 'Sou acadêmica do curso de enfermagem atualmente em fase de formação. Excelência em cuidado domiciliar, combino o que há de mais recente no conhecimento acadêmico com a experiência prática, trazendo para sua casa um padrão de cuidado que é tanto competente quanto profundamente humano. Minha missão é proporcionar uma assistência domiciliar de alta qualidade, garantindo que o bem-estar e a segurança do paciente sejam a prioridade máxima. Ofereço um atendimento individualizado e humanizado, promovendo a recuperação e a qualidade de vida no conforto e na segurança do ambiente familiar.',
@@ -303,7 +303,7 @@ export const professionals = [
     name: 'Conceição Araujo',
     specialty: 'Técnico em enfermagem',
     description: 'Estudante de técnico em enfermagem, atualmente no 4° período.',
-    image: '/enfermeira.png',
+    image: '/conceicao.jpeg',
     experience: ["UBS Antônio Carlos Costa (bairro Cristo Rei) Junho 2024", "Hospital Geral do Buenos Aires Novembro 2024", "Hospital da Polícia Militar do Piauí (HPM) Dezembro 2024 ", "Hospital Santa Maria Agosto 2024 até o momento. "],
     city: 'Teresina / PI',
     about: 'Estudante de técnico em enfermagem, atualmente no 4° período pela instituição de ensino Senac- PI, experiências prática e habilidades desenvolvida através de estágios em unidades hospitalares e UBS como aferição de sinais vitais, administração de medicamentos e vacinas, coleta de material para exames, cuidado com a higiene e conforto do paciente, suporte em procedimentos de urgência e atuação no apoio à equipe multidisciplinar de UTI adulto e pediátrica. Objetivo de oferecer um atendimento seguro e acolhedor, sempre buscando novos conhecimentos através de cursos e treinamentos, comprometido com a segurança do paciente.',
