@@ -1,7 +1,7 @@
 export const professionals = [
   {
     id: 1,
-    name: 'Allyssandra K.',
+    name: 'Allyssandra Karen',
     specialty: 'Atenção Primária e Hospitalar',
     description: 'Técnica em Enfermagem com sólida formação e comprometimento em prestar assistência segura, qualificada e centrada no paciente.',
     image: '/alyssandra.jpeg',
