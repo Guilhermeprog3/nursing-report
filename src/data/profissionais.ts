@@ -321,7 +321,7 @@ export const professionals = [
   },
   {
     id: 19,
-    name: 'Géssica Vasconselos',
+    name: 'Géssica Vasconcelos',
     specialty: 'Técnica em enfermagem (em formação)',
     description: 'Técnica em enfermagem (em formação)',
     image: '/gessica.jpeg',
