@@ -5,12 +5,12 @@ import Image from 'next/image';
 export function Header() {
   return (
     <header className="bg-transparent backdrop-blur-sm sticky top-0 z-50 border-b border-border">
-      <div className="container mx-auto flex justify-between items-center p-4">
+      <div className="container mx-auto flex items-center p-4">
         <Link href="/" className="flex items-center gap-2 text-xl font-bold">
           <Image src="/logo.jpeg" alt='logo' width={40} height={40} className='rounded-3xl'/>
           <span>Enfermagem</span>
         </Link>
-        <nav className="hidden md:flex gap-6 items-center">
+        <nav className="hidden md:flex flex-1 justify-center gap-6 items-center">
           <Link href="/" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">
             Início
           </Link>
@@ -21,9 +21,6 @@ export function Header() {
             Nossos Profissionais
           </Link>
         </nav>
-        <Button asChild>
-          <Link href="/contact">Contate-nos</Link>
-        </Button>
       </div>
     </header>
   );
