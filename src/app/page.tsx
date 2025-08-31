@@ -13,14 +13,13 @@ export default function Home() {
           <span className="text-primary">Segurança para você</span>
         </h1>
         <p className="text-text-muted-foreground max-w-4xl mx-auto mb-10">
-          Somos uma plataforma que conecta pacientes e seus familiares a técnicos de
-          enfermagem qualificados, com o objetivo de oferecer um atendimento
-          humanizado, seguro e acessível. Nosso foco é cuidar das pessoas de forma
-          que elas se sintam respeitadas com dignidade e conforto, sempre seguindo
-          padrões éticos e técnicos bem rigorosos. Trabalhamos com empatia,
-          transparência e dedicação à excelência, buscando melhorar constantemente a
-          experiência de quem confia em nossos serviços e fortalecendo a relação de
-          confiança entre profissionais e pacientes.        
+          Somos uma turma unida pelo propósito de cuidar. Ao longo da
+          nossa formação como Técnicos em Enfermagem, enfrentamos
+          desafios, aprendemos juntos e desenvolvemos não só habilidades
+          técnicas, mas também laços fortes de amizade e cooperação. Esta
+          vitrine é o reflexo de tudo o que construímos: conhecimento,
+          dedicação e o desejo genuíno de fazer a diferença na vida das
+          pessoas.     
         </p>
         <div className="flex gap-4 mb-8">
           <Button variant="ghost" size="icon"><Facebook /></Button>
