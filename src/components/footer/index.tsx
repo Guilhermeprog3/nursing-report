@@ -9,7 +9,7 @@ export function Footer() {
         <div className="flex flex-col gap-4">
           <div className="flex items-center gap-2">
             <Stethoscope className="text-primary" />
-            <h2 className="text-lg font-bold">Enfermagem 202X - SENAC</h2>
+            <h2 className="text-lg font-bold">Enfermagem 2025 - SENAC</h2>
           </div>
           <p className="text-muted-foreground">
             Cada aluno aqui representa a força, o compromisso e a paixão por cuidar. Esta é a vitrine de uma turma
