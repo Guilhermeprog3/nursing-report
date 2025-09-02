@@ -4,11 +4,9 @@ import { notFound } from 'next/navigation';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-// 1. Ícone do LinkedIn re-adicionado à importação
 import { MessageCircle, CheckCircle2, XCircle, Plane, CalendarClock, Briefcase, User, Sparkles, Info, Linkedin } from 'lucide-react';
 import Link from 'next/link';
 
-// Tipagem para o profissional, incluindo o campo opcional 'linkedin'
 type Professional = (typeof professionals)[0] & {
   contact: {
     linkedin?: string;
@@ -46,7 +44,6 @@ export default async function ProfessionalDetailPage({ params }: PageProps) {
           <h1 className="text-4xl font-bold">{professional.name}</h1>
           <p className="text-lg text-muted-foreground mt-2">{professional.description}</p>
           
-          {/* 2. Botão do LinkedIn presente na seção superior */}
           <div className="flex items-center justify-center md:justify-start gap-4 mt-2">
             <Button asChild variant="link" className="px-0 text-green-400 hover:text-green-500">
               <Link href={whatsappLink} target="_blank" rel="noopener noreferrer">
@@ -140,7 +137,6 @@ export default async function ProfessionalDetailPage({ params }: PageProps) {
                 </a>
               </div>
               
-              {/* 3. Link do LinkedIn também presente no card de Informações */}
               {professional.contact.linkedin && (
                 <div>
                   <h4 className="font-semibold tracking-tight">LinkedIn</h4>
