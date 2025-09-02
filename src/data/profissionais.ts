@@ -1,7 +1,7 @@
 export const professionals = [
   {
     id: 15,
-    name: 'Alcione Pereira de Oliveira',
+    name: 'Alcione Oliveira',
     specialty: 'Técnica em enfermagem (em formação)',
     description: 'Técnica em enfermagem (em formação)',
     image: '/alcione.jpeg',
@@ -189,7 +189,7 @@ export const professionals = [
     specialty: 'Técnica em enfermagem (em formação)',
     description: 'Técnica em enfermagem (em formação)',
     image: '/gabriela.jpeg',
-    experience: ["Administração de medicamentos", "Punção Venosa e troca de acesso.", "Troca e limpeza de curativos", "Retirada de Pontos", "Anotações de Enfermagem", "Coleta de Sangue", "Monitorizacao de Sinais Vitais, Pesagem e Testes de Glicemia.", "Vacinação, Intramuscular, Intradérmica e Subcutânea.","Estágio Curricular Obrigatório: Unidade Básica de Saúde Dr° José Wilson Batista; Hospital Geral do Buenos Aires e Hospital Dirceu Arcoverde (HPM)",],
+    experience: ["Administração de medicamentos", "Punção Venosa e troca de acesso.", "Troca e limpeza de curativos", "Retirada de Suturas", "Anotações de Enfermagem", "Higiene Corporal / Banho no Leito.", "Monitorizacao de Sinais Vitais, Pesagem e Testes de Glicemia.", "Vacinação, Intramuscular, Intradérmica e Subcutânea.","Estágio Curricular Obrigatório: Unidade Básica de Saúde Dr° José Wilson Batista; Hospital Geral do Buenos Aires e Hospital Dirceu Arcoverde (HPM)",],
     city: 'Teresina / PI',
     about: 'Sou Técnica de Enfermagem dedicada e comprometida, com forte senso de responsabilidade e ética. Tenho como prioridade o cuidado humanizado, baseado no respeito, na empatia e na valorização do paciente e de sua família. Acredito na importância do trabalho em equipe e da comunicação clara para garantir um ambiente de confiança e segurança. Estou sempre em busca de novos aprendizados e aprimoramento profissional, visando contribuir de forma positiva para a qualidade do atendimento e para o bem-estar das pessoas.',
     skills: ["Primeiros socorros: desmaios, crises convulsivas e quedas 4 h Coren-PI", "Urgências obstétricas 4h Coren-PI", "Imuniza Coren-PI 4h", "Avaliação de risco do pé diabético 4h Coren-PI", "Segurança do Paciente 4h Coren-PI", "Cuidados de enfermagem nos cuidados em paciente diabético 4h Coren-PI", "Registros de enfermagem: interface entre ética e a qualidade na assistência. 4h Coren-PI", "Oficina de urgência e emergência: Avaliação primária e secundária no trauma(XABCDE) 4h Senac-PI", "Oficina do pé diabético 3h Senac-PI", "Boas Práticas de Enfermagem em oncologia e cuidados paliativos Coren-PI 4h"],
@@ -209,7 +209,7 @@ export const professionals = [
     experience: ["Hospital Dirceu Arco Verde - HPM", "Hospital geral do Satélite", "Unidade de saúde da família Dr. José Wilson Batista", "Auxiliar de apoio a inclusão crianças autistas (CMEI Esplanada)"],
     city: 'Teresina / PI',
     about: 'Sou Géssica Vasconcelos, atuo no atendimento especializado em Home Care, oferecendo cuidados de enfermagem com responsabilidade, ética, humanização e empatia, sempre priorizando o bem-estar e a segurança do paciente.',
-    skills: ["Primeiros socorros: desmaios, crises convulsivas e quedas (4h Coren-PI)", "Cuidado do acidente vascular cerebral (AVC) infarto agudo do miocárdio (IAM) 8h Coren-PI", "Princípios fundamentais em instrumentação cirúrgica ( teoria e prática) 8h Coren-PI", "Oficina de feridas e curativos 2H- SENAC- PI", ,"Atendimento Humanizado ","Comunicação Clara e empática.","Escuta Ativa.","Sigilo E Ética Profissional.","Paciência E Resiliência.","Adaptabilidade.","Responsabilidade."],
+    skills: ["Primeiros socorros: desmaios, crises convulsivas e quedas (4h Coren-PI)", "Cuidado do acidente vascular cerebral (AVC) infarto agudo do miocárdio (IAM) 8h Coren-PI", "Princípios fundamentais em instrumentação cirúrgica ( teoria e prática) 8h Coren-PI", "Oficina de feridas e curativos 2H- SENAC- PI",],
     contact: {
       email: 'gessica.vasconcello@gmail.com',
       phone: '86994896212'
@@ -240,10 +240,10 @@ export const professionals = [
     specialty: 'Técnica em enfermagem (em formação)',
     description: 'Técnica em enfermagem (em formação)',
     image: '/Isabella.jpg',
-    experience: ["Controle de sinais vitais e realização de curativos", "Administração de medicamentos e aplicação de vacinas", "Apoio nas atividades de enfermagem e organização de registros","Estágio curricular: Unidade basica de saúde Valdinar Pereira, Ambulatório Hospital do satélite, Hospital Dirceu Polícia Militar."],
+    experience: ["Controle de sinais vitais e realização de curativos", "Administração de medicamentos e aplicação de vacinas", "Apoio nas atividades de enfermagem e organização de registros","Estágio curricular: Unidade basica de saúde Valdinar Pereira, Ambulatório Hospital do satélite, Hospital Dirceu Polícia Militar.","Estágio extracurricular em clínica, experiência em ultrassom, cardiologia e urologia – 02 a 11/2025"],
     city: 'Teresina / PI',
     about: 'Olá, sou Isabella Maria, estou cursando o Técnico de Enfermagem pelo SENAC. Durante minha trajetória acadêmica, adquiri conhecimentos e habilidades para oferecer suporte no cuidado ao paciente em diferentes fases do atendimento. Ao longo da minha formação, tive a chance de participar de pesquisas e atividades extracurriculares, o que me proporcionou uma vivência enriquecedora e a oportunidade de aplicar na prática os conceitos aprendidos.',
-    skills: ["Oficina de ferida e curativos 2h 08/2024", "Estágio extracurricular em clínica, experiência em ultrassom, cardiologia e urologia – 02 a 11/2025"],
+    skills: ["Oficina de ferida e curativos 2h 08/2024"],
     contact: {
       email: 'isabellatecnico@gmail.com',
       phone: '(86) 988409224'
@@ -306,7 +306,7 @@ export const professionals = [
   },
   {
     id: 8,
-    name: 'Maria dos Reis Sousa',
+    name: 'Maria Sousa',
     specialty: 'Técnica em Enfermagem (em formação)',
     description: 'Técnica em Enfermagem (em formação)',
     image: '/maria dos reis.jpeg',
@@ -381,7 +381,7 @@ export const professionals = [
     experience: ["Estágio em UBS", "Apoio no atendimento a pacientes e realização de triagens", "participação em campanhas de saúde.", "Estágio em Clínica Médica","Acompanhamento de consultas e coleta de dados para anamnese.", "Administração de Medicamentosmonitoramento de efeitos", "registro detalhado da administração e orientação aos pacientes.", "Monitoramento de Sinais Vitais e Glicemia","Medição de sinais vitais e controle de glicemia."],
     city: 'Teresina / PI',
     about: 'Olá, Me chamo Sara Dâmarys Estudante do curso Técnico de Enfermagem Pelo SENAC, com formação em andamento, comprometida com a prestação de cuidados humanizados e seguros no atendimento domiciliar (Home Care), Obtive conhecimentos em cuidados básicos de enfermagem, Com objetivo de atuar com responsabilidade, ética e empatia, respeitando os limites técnicos e legais da formação, buscando constante aprimoramento para garantir a qualidade do serviço prestado e o bem-estar do paciente.',
-    skills: ["Oficina de feridas e curativos - 2h 08/2024"],
+    skills: ["Oficina de feridas e curativos-2h 08/2024 SENAC/PI"],
     contact: {
       email: 'silvasaraz844@gmail.com',
       phone: '(86)98893-6995'
