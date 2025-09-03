@@ -8,7 +8,7 @@ export function Header() {
   return (
     <header className="bg-transparent backdrop-blur-sm sticky top-0 z-50 border-b border-border">
       <div className="container mx-auto flex items-center p-4">
-        <Link href="/" className={`flex items-center gap-2 text-2xl font-bold ${nunito.className}`}>
+        <Link href="/" className={`flex items-center text-2xl font-bold ${nunito.className}`}>
           <Image 
             src="/logo.jpeg" 
             alt='logo' 
@@ -16,8 +16,8 @@ export function Header() {
             height={40} 
             className='rounded-full'
           />
-          <span style={{ color: '#FAD1D1' }}>The</span>
-          <span style={{ color: '#E86A7A' }}>Home</span>
+          <span style={{ color: '#FAD1D1' }}>The </span>
+          <span style={{ color: '#E86A7A' }}> Home </span>
           <span style={{ color: '#52A9D8' }}>Care</span>
         </Link>
         <nav className="hidden md:flex flex-1 justify-center gap-6 items-center">

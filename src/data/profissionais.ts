@@ -275,7 +275,7 @@ export const professionals = [
     name: 'Layla Santos',
     specialty: 'Técnica em enfermagem (em formação)',
     description: 'Técnica em enfermagem (em formação)',
-    image: '/laila.jpeg',
+    image: '/laysa.jpeg',
     experience: ["Procedimentos técnicos", "Organização da rotina de cuidados", "Apoio à equipe multiprofissional","Estágio obrigatório em UBS - Karla Ivana de Melo Campos (Bairro Matadouro)","Estágio obrigatório Hospital geral do Satélite (Clínica Médica","Estágio obrigatório Hospital Dirceu Arcoverde da Policia Militar - HPMPI (Clínica Médica)","Auxiliar de Apoio à Inclusão - AAI (CMEI João Mendes O. De Melo) até o momento"],
     city: 'Teresina / PI',
     about: 'Acadêmica no curso Técnico em Enfermagem em formação. Com foco em Home Care, com atuação em cuidados contínuos, suporte a pacientes crônicos e reabilitação domiciliar.',
